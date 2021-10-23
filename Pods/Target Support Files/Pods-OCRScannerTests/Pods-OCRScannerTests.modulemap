@@ -1,0 +1,6 @@
+framework module Pods_OCRScannerTests {
+  umbrella header "Pods-OCRScannerTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
