@@ -8,6 +8,10 @@ target 'OCRScanner' do
   # Pods for OCRScanner
 pod "Koloda"
 pod 'Firebase/Analytics'
+pod 'Firebase/Auth'
+pod 'DropDown'
+pod 'Charts'
+pod 'TinyConstraints'
 
   target 'OCRScannerTests' do
     inherit! :search_paths

@@ -22,7 +22,14 @@
 		461925502723E7920063ED25 /* ScanImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4619254F2723E7920063ED25 /* ScanImageView.swift */; };
 		461925522723F56B0063ED25 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461925512723F56B0063ED25 /* CardViewController.swift */; };
 		4619255427240B830063ED25 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4619255327240B830063ED25 /* Card.swift */; };
-		46192556272435D20063ED25 /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = 46192555272435D20063ED25 /* GoogleService-Info (1).plist */; };
+		461925582724AA3C0063ED25 /* StartingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461925572724AA3C0063ED25 /* StartingViewController.swift */; };
+		4619255A2724EED10063ED25 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461925592724EED10063ED25 /* SignUpViewController.swift */; };
+		4619255C2724FB170063ED25 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4619255B2724FB170063ED25 /* GoogleService-Info.plist */; };
+		4619255E27251E640063ED25 /* CompanyHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4619255D27251E640063ED25 /* CompanyHomeViewController.swift */; };
+		46192560272546390063ED25 /* CustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4619255F272546390063ED25 /* CustomerViewController.swift */; };
+		4619256227255BAD0063ED25 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4619256127255BAD0063ED25 /* ItemViewController.swift */; };
+		4619256427255E270063ED25 /* TargetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4619256327255E270063ED25 /* TargetViewController.swift */; };
+		4619256627257B7B0063ED25 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4619256527257B7B0063ED25 /* UserViewController.swift */; };
 		698F7A862B6C8A7DA5E4616B /* Pods_OCRScanner_OCRScannerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 383066B13308FF7F13E1C96B /* Pods_OCRScanner_OCRScannerUITests.framework */; };
 		DA76AA8392E16FCD40338462 /* Pods_OCRScannerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F59BE56C43780CEB5E5781 /* Pods_OCRScannerTests.framework */; };
 /* End PBXBuildFile section */
@@ -68,7 +75,14 @@
 		4619254F2723E7920063ED25 /* ScanImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanImageView.swift; sourceTree = "<group>"; };
 		461925512723F56B0063ED25 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
 		4619255327240B830063ED25 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
-		46192555272435D20063ED25 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
+		461925572724AA3C0063ED25 /* StartingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingViewController.swift; sourceTree = "<group>"; };
+		461925592724EED10063ED25 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		4619255B2724FB170063ED25 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4619255D27251E640063ED25 /* CompanyHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyHomeViewController.swift; sourceTree = "<group>"; };
+		4619255F272546390063ED25 /* CustomerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerViewController.swift; sourceTree = "<group>"; };
+		4619256127255BAD0063ED25 /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+		4619256327255E270063ED25 /* TargetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetViewController.swift; sourceTree = "<group>"; };
+		4619256527257B7B0063ED25 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		5179AABDAD9E54A86D40E917 /* Pods-OCRScanner-OCRScannerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCRScanner-OCRScannerUITests.debug.xcconfig"; path = "Target Support Files/Pods-OCRScanner-OCRScannerUITests/Pods-OCRScanner-OCRScannerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		640F14CAAF7503591C8909AB /* Pods-OCRScanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCRScanner.debug.xcconfig"; path = "Target Support Files/Pods-OCRScanner/Pods-OCRScanner.debug.xcconfig"; sourceTree = "<group>"; };
 		E1C6A1083C4FD0C1E6D492B7 /* Pods-OCRScannerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCRScannerTests.debug.xcconfig"; path = "Target Support Files/Pods-OCRScannerTests/Pods-OCRScannerTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -138,7 +152,7 @@
 		4619251A2723D8630063ED25 /* OCRScanner */ = {
 			isa = PBXGroup;
 			children = (
-				46192555272435D20063ED25 /* GoogleService-Info (1).plist */,
+				4619255B2724FB170063ED25 /* GoogleService-Info.plist */,
 				4619251B2723D8630063ED25 /* AppDelegate.swift */,
 				4619251D2723D8630063ED25 /* SceneDelegate.swift */,
 				4619251F2723D8630063ED25 /* ViewController.swift */,
@@ -151,6 +165,13 @@
 				4619254F2723E7920063ED25 /* ScanImageView.swift */,
 				461925512723F56B0063ED25 /* CardViewController.swift */,
 				4619255327240B830063ED25 /* Card.swift */,
+				461925572724AA3C0063ED25 /* StartingViewController.swift */,
+				461925592724EED10063ED25 /* SignUpViewController.swift */,
+				4619255D27251E640063ED25 /* CompanyHomeViewController.swift */,
+				4619255F272546390063ED25 /* CustomerViewController.swift */,
+				4619256127255BAD0063ED25 /* ItemViewController.swift */,
+				4619256327255E270063ED25 /* TargetViewController.swift */,
+				4619256527257B7B0063ED25 /* UserViewController.swift */,
 			);
 			path = OCRScanner;
 			sourceTree = "<group>";
@@ -295,9 +316,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				461925282723D8650063ED25 /* LaunchScreen.storyboard in Resources */,
+				4619255C2724FB170063ED25 /* GoogleService-Info.plist in Resources */,
 				461925252723D8650063ED25 /* Assets.xcassets in Resources */,
 				461925232723D8630063ED25 /* Main.storyboard in Resources */,
-				46192556272435D20063ED25 /* GoogleService-Info (1).plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,9 +446,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46192560272546390063ED25 /* CustomerViewController.swift in Sources */,
+				4619256627257B7B0063ED25 /* UserViewController.swift in Sources */,
 				4619254E2723E7770063ED25 /* ScanButton.swift in Sources */,
+				461925582724AA3C0063ED25 /* StartingViewController.swift in Sources */,
+				4619256427255E270063ED25 /* TargetViewController.swift in Sources */,
+				4619256227255BAD0063ED25 /* ItemViewController.swift in Sources */,
 				461925522723F56B0063ED25 /* CardViewController.swift in Sources */,
+				4619255E27251E640063ED25 /* CompanyHomeViewController.swift in Sources */,
 				4619254C2723E7530063ED25 /* OCRTextView.swift in Sources */,
+				4619255A2724EED10063ED25 /* SignUpViewController.swift in Sources */,
 				461925202723D8630063ED25 /* ViewController.swift in Sources */,
 				4619251C2723D8630063ED25 /* AppDelegate.swift in Sources */,
 				4619251E2723D8630063ED25 /* SceneDelegate.swift in Sources */,

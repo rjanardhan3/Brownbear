@@ -12,11 +12,11 @@ class Card {
     let cost = "";
     let date:NSDate? = nil;
     
-    init(var c, var c2, var l) {
-        category = c;
-        cost = c2;
-        date = l;
-    }
+   // init(var c, var c2, var l) {
+     //   category = c;
+      //  cost = c2;
+        //date = l;
+   // }
     
     
 }

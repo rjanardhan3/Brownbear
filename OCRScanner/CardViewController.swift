@@ -10,16 +10,13 @@ import Koloda
 let images = ["1", "2"];
 
 class CardViewController: UIViewController{
-    func koloda(_ koloda: KolodaView, allowedDirectionsForIndex index: Int) -> [SwipeResultDirection] {
-        
-    }
-    
+  
     
     @IBOutlet weak var kolodaView: KolodaView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        kolodaView.dataSource = self;
-        kolodaView.delegate = self;
+        //kolodaView.dataSource = self;
+        //kolodaView.delegate = self;
         
         // Do any additional setup after loading the view.
     }
